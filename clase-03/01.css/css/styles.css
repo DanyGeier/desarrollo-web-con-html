@@ -1,0 +1,38 @@
+h3 {
+    /* RRGGBB */
+    /* RGB */
+    /* color: #00f */
+    /* color: rgba(255, 0, 0, .5) /0 a 255 ! transparencia va de 0 a 1*/
+    color: rgb(128, 0, 128) 
+    /*color green*/
+}
+
+/* Selectores de etiquetas (h1, h2, h3, h4, h5, h6, p, li, ol, ul, hr */
+/* Selectores de clase (El selector de clase se hace a través de (.) */
+/* clases -> Las clases pueden colocarse sin limite dentro del atributo*/
+.color-violeta {
+    color: violet;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.estilo-titulo { 
+    color: blue;
+    text-decoration: underline;
+}
+
+.estitulo-titulo-otro-color {
+    color: red
+}
+
+
+
+/* Formas para definir colores en html y css */
+
+/* RGB -> Red, Green, Blue */
+/* CMYK -> Cyan, Magenta, Yellow, Key */
+/* Hexadecimal -> Base 16 */
+/* Usar el hexadecimal, como valor de color en la web */ 
+
