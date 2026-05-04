@@ -1,0 +1,44 @@
+.contenedor{
+    height: 100px;
+    background-color: lightcoral;
+    width: 500px;
+}
+
+/* Margen interno (Entre el borde y el contenido) */
+.padding {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid crimson;
+}
+
+/* Margen externo (entre el borde y los otros elementos */
+.margin {
+    background-color: lightblue;
+    margin: 30px;
+    border:3px solid blue;
+}
+
+.padding-largo{
+    background-color: lightpink;
+    padding-top: 20px; /* 12 horas */
+    padding-right: 5px; /*15 horas */
+    padding-bottom: 10px; /* 18 horas */
+    padding-left: 50px; /* 21 horas */
+    /*          12h 15h 18h 21h */
+    padding: 20px, 5px, 10px, 50px; /* shorthand */
+}
+
+.margin-largo {
+    background-color: lightgoldenrodyellow;
+    margin-top: 7px;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    margin-left: 28px;
+    /*      12h 15h 18h 21h     */
+    margin: 7px, 20px, 18px, 28px;
+    /*      12h 15/21  18h */
+    margin: 7px, 20px, 18px;
+    /*      12/18h  15/21h  */
+    margin: 25px, 34px;
+}
+
