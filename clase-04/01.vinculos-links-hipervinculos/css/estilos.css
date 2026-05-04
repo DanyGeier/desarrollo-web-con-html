@@ -1,0 +1,41 @@
+/* selector de etiqueta -> a */
+
+/* Selectores (etiquetas - clases)*/
+
+/* etiquetas: pseudo-clase */
+/* clase: pseudo-clase */
+
+/* vinculos */
+
+/* ! EL orden es importante
+/*
+* 1. :link
+* 2. :visited
+* 3. :hover
+* 4. :active
+*/
+
+/* EL none en el text decoration le saca el subrayado */
+a {
+    text-decoration: none;;
+}
+
+/* Modifica visualmente el elemento si no ha sido visitado */
+a:link {
+    color: violet;
+}
+
+/* Modifica visualmente el elemento si ha sido visitado*/
+a:visited {
+    color: crimson;
+}
+
+/* Modifica visualmente al pasar el mouse por encima del elemento*/
+a:hover {
+    color: burlywood;
+}
+
+/* Modifica visualmente al elemento cuando presionó el vinculo*/
+a:active {
+    color: blueviolet;
+}
