@@ -1,0 +1,14 @@
+body {
+    width: 700px; 
+}
+
+table {
+    width: 100%; /* medida relativa */ /* relativo al elemento que contiene a la tabla */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+}

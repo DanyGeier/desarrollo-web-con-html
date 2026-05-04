@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <hr>
+    
+    <!-- Construye sitios con flexbox, grid.... -->
+    <!-- Hace tiempo se construian sitios con tablas, floats -->
+    <!-- https://caniuse.com/ -->
+    <!-- https://www.caniemail.com/ -->
+
+    <!-- Etiqueta table -->
+
+    <h2>Tabla de productos</h2>
+
+    <!-- thml4 -->
+     <tr>
+        <table>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Categoria</th>
+            <th>Stock</th>
+     </tr>
+    <tr>
+        <td>1</td>
+        <td>Producto A</td>
+        <td>$122</td>
+        <td>Electrónica</td>
+        <td>Disponible</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Producto B</td>
+        <td>$422</td>
+        <td>Electrónica</td>
+        <td>Indisponible</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Producto C</td>
+        <td>$143</td>
+        <td>Electrónica</td>
+        <td>Disponible</td>
+        </table>
+    </tr>
+
+
+    <!-- html5-->
+    <table>
+        <thead>
+            <tr> <!-- table row -->
+                <th>ID</th> <!-- table head -->
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Categoria</th>
+                <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Producto A</td>
+                    <td>$122</td>
+                    <td>Electrónica</td>
+                    <td>Disponible</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Producto B</td>
+                    <td>$442</td>
+                    <td>Electrónica</td>
+                    <td>Indisponible</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Producto C</td>
+                    <td>$143</td>
+                    <td>Electrónica</td>
+                    <td>Disponible</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total</td>
+                    <td>$687</td>
+                </tr>
+            </tfoot>
+    </table>
+
+
+
+</body>
+</html>
