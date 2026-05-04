@@ -1,0 +1,8 @@
+img {
+    display: block;
+}
+
+.fondo {
+    background-image: url("../imgs/caramelos.jpg");
+    height: 100px;
+}
